@@ -1,0 +1,23 @@
+html {
+	font-family: 'Almarai', sans-serif;
+}
+
+.textbox{
+	display: flex;
+	justify-content: center space-between;
+	text-align: justify;
+	margin: 0 auto;
+	width: 150px;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+img {
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+.textbox:hover {
+	flex-basis: 300px;
+	opacity: 0.5;
+}
